@@ -212,7 +212,7 @@ export type ValueObject = {
 	contacts: ContactObject[];
 	errors: ErrorObject[];
 	messages: MessagesObject[];
-	metadata: MetadataObject[];
+	metadata: MetadataObject;
 	statuses: StatusesObject[];
 };
 
