@@ -204,7 +204,7 @@ type ContactObject = {
 
 type MetadataObject = {
 	display_phone_number: string;
-	phoneNumberId: string;
+	phone_number_id: string;
 };
 
 export type ValueObject = {
