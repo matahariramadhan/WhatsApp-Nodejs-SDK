@@ -292,7 +292,7 @@ export type TextObject = {
 
 export type TextMessageRequestBody =
 	MessageRequestBody<MessageTypesEnum.Text> & {
-		[MessageTypesEnum.Text]: [TextObject];
+		[MessageTypesEnum.Text]: TextObject;
 	};
 
 type MetaHostedVideoMediaObject = {

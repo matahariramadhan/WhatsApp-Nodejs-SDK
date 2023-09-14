@@ -221,7 +221,7 @@ type ChangesObject = {
 	value: ValueObject;
 };
 
-type Entry_Object = {
+export type Entry_Object = {
 	id: string;
 	changes: ChangesObject[];
 };
